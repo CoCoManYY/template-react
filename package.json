@@ -116,5 +116,9 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "react-hot-loader": "^4.7.1",
+    "react-router-dom": "^4.3.1"
   }
 }
