@@ -26,7 +26,7 @@ class Documentation extends Component {
         return (
             Documentations.map(item => (
                 <div key={item.title}>
-                    <a href={item.url} target="_blank" >
+                    <a href={item.url} target={item.url} >
                         <span style={{width: 120, display: 'inline-block'}}>{item.title}</span>
                         <span style={{marginLeft: 30}}>{item.url}</span>
                     </a>
